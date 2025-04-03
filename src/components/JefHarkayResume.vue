@@ -3,11 +3,12 @@ import SectionJobDescription from "@/components/SectionJobDescription.vue";
 import { EducationRoute, ExperienceRoute, SkillsRoute, SummaryRoute } from "@/router";
 
 const PersonalTasks = [
-	"Created sample e-commerce app using React 19, NestJS API, and SQLite DB",
-	"Deployed Core UI package to GitHub for consumption in personal Vue projects",
-	"Designed micro architecture scaffolding script to increase initial app productivity",
-	"Experimented with OOP based UI View Models that encapsulate API calls",
-	"Prototyped Legend of Zelda clone using Phaser 3 and TypeScript",
+	"Created sample <a href=\"https://github.com/incutonez/ecommerce\" class='anchor-link underline text-blue-700' target='_blank'>e-commerce app</a> using React 19, NestJS API, and SQLite DB",
+	"Deployed <a href=\"https://github.com/incutonez/core-ui\" class='anchor-link underline text-blue-700' target='_blank'>Core UI package</a> to GitHub for consumption in personal Vue projects",
+	"Designed micro architecture <a href=\"https://github.com/incutonez/configs/tree/main/scaffold\" class='anchor-link underline text-blue-700' target='_blank'>scaffolding script</a> to increase initial app productivity",
+	"Experimented with OOP based UI <a href=\"https://github.com/incutonez/Sandbox/blob/main/packages/ui/src/models/UserModel.ts#L137-L169\" class='anchor-link underline text-blue-700' target='_blank'>View Models</a> that encapsulate API calls",
+	"Prototyped <a href=\"https://incutonez.github.io/fabled-basin/#/\" class='anchor-link underline text-blue-700' target='_blank'>Legend of Zelda</a> clone using Phaser 3 and TypeScript",
+	"Created <a href=\"https://github.com/incutonez/eslint-plugin\" class='anchor-link underline text-blue-700' target='_blank'>ESLint Plugin</a> for personal preference on how braces and brackets should look",
 	"Contemplated ways on starting own business to clean up the Internet",
 ];
 const QADTasks = [
@@ -245,9 +246,9 @@ const DoDTasks = ["Rotated offices every 6-8 months, contributing to several dif
 			<a
 				target="_blank"
 				class="hidden print:inline underline mx-auto"
-				title="https://incutonez.github.io/Sandbox/resume/"
-				href="https://incutonez.github.io/Sandbox/resume/"
-			>Created with ❤️ and Vue</a>
+				title="https://incutonez.github.io/jefharkay/#/resume/summary"
+				href="https://incutonez.github.io/jefharkay/#/resume/summary"
+			>Created with ❤️ and Vue (click me)</a>
 		</section>
 	</article>
 </template>
