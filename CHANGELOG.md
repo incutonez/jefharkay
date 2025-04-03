@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/incutonez/jefharkay/compare/v1.0.1...v1.0.2) (2025-04-03)
+
+### Bug Fixes
+
+* Resume Changes ([#6](https://github.com/incutonez/jefharkay/issues/6)) ([f1d320a](https://github.com/incutonez/jefharkay/commit/f1d320ac90b39b1e9ede3d617f92e7fa3bb5f75e))
+
 ## [1.0.1](https://github.com/incutonez/jefharkay/compare/v1.0.0...v1.0.1) (2025-04-03)
 
 ### Bug Fixes
