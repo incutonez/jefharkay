@@ -1,3 +1,9 @@
+## [1.0.5](https://github.com/incutonez/jefharkay/compare/v1.0.4...v1.0.5) (2025-04-03)
+
+### Bug Fixes
+
+* Senior Senior Wordsmith ([#9](https://github.com/incutonez/jefharkay/issues/9)) ([66793ee](https://github.com/incutonez/jefharkay/commit/66793ee8fc8b6042cb50ca4eb49da25055a26628))
+
 ## [1.0.4](https://github.com/incutonez/jefharkay/compare/v1.0.3...v1.0.4) (2025-04-03)
 
 ### Bug Fixes
