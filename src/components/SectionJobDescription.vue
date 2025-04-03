@@ -37,7 +37,7 @@ defineProps<ISectionJobDescription>();
 				:key="task"
 				class="ml-4 list-disc"
 			>
-				<li>{{ task }}</li>
+				<li v-html="task" />
 			</ul>
 		</template>
 	</article>
