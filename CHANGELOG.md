@@ -1,3 +1,9 @@
+## [1.0.6](https://github.com/incutonez/jefharkay/compare/v1.0.5...v1.0.6) (2025-04-20)
+
+### Bug Fixes
+
+* Adding Content ([94e802e](https://github.com/incutonez/jefharkay/commit/94e802e80934163a12c16a61ae42fdfe5cf4eb24))
+
 ## [1.0.5](https://github.com/incutonez/jefharkay/compare/v1.0.4...v1.0.5) (2025-04-03)
 
 ### Bug Fixes
