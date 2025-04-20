@@ -31,14 +31,14 @@ defineProps<ISectionJobDescription>();
 			</span>
 			<span class="italic text-gray-700 md:ml-auto">{{ industry }}</span>
 		</section>
-		<template v-if="!!tasks">
-			<ul
-				v-for="task in tasks"
-				:key="task"
-				class="ml-4 list-disc"
-			>
-				<li v-html="task" />
-			</ul>
-		</template>
+		<ul class="ml-4 list-disc">
+			<slot name="tasks">
+				<li
+					v-for="task in tasks"
+					:key="task"
+					v-html="task"
+				/>
+			</slot>
+		</ul>
 	</article>
 </template>

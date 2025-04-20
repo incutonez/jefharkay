@@ -1,16 +1,8 @@
 ﻿<script setup lang="ts">
+import BaseLink from "@/components/BaseLink.vue";
 import SectionJobDescription from "@/components/SectionJobDescription.vue";
 import { EducationRoute, ExperienceRoute, SkillsRoute, SummaryRoute } from "@/router";
 
-const PersonalTasks = [
-	"Created sample <a href=\"https://github.com/incutonez/ecommerce\" class='anchor-link underline text-blue-700' target='_blank'>e-commerce app</a> using React 19, NestJS API, and SQLite DB",
-	"Deployed <a href=\"https://github.com/incutonez/core-ui\" class='anchor-link underline text-blue-700' target='_blank'>Core UI package</a> to GitHub for consumption in personal Vue projects",
-	"Designed micro architecture <a href=\"https://github.com/incutonez/configs/tree/main/scaffold\" class='anchor-link underline text-blue-700' target='_blank'>scaffolding script</a> to increase initial app productivity",
-	"Experimented with OOP based UI <a href=\"https://github.com/incutonez/Sandbox/blob/main/packages/ui/src/models/UserModel.ts#L137-L169\" class='anchor-link underline text-blue-700' target='_blank'>View Models</a> that encapsulate API calls",
-	"Prototyped <a href=\"https://incutonez.github.io/fabled-basin/#/\" class='anchor-link underline text-blue-700' target='_blank'>Legend of Zelda</a> clone using Phaser 3 and TypeScript",
-	"Created <a href=\"https://github.com/incutonez/eslint-plugin\" class='anchor-link underline text-blue-700' target='_blank'>ESLint Plugin</a> for personal preference on how braces and brackets should look",
-	"Contemplated ways on starting own business to clean up the Internet",
-];
 const QADTasks = [
 	"Increased customer velocity by adding multi-upload area for managing entities",
 	"Increased developer velocity by creating common page layouts, inputs, and data tables",
@@ -122,8 +114,53 @@ const DoDTasks = ["Rotated offices every 6-8 months, contributing to several dif
 					industry="Personal Tech"
 					position="Senior Web Engineer"
 					date-end="Present"
-					:tasks="PersonalTasks"
-				/>
+				>
+					<template #tasks>
+						<li>
+							Created <BaseLink
+								href="https://incutonez.github.io/satisfactory-manager/#items"
+								text="Satisfactory Manager"
+							/> using React 19, TanStack Table, TanStack Router, and React Aria Components
+						</li>
+						<li>
+							Created sample <BaseLink
+								href="https://github.com/incutonez/ecommerce"
+								text="e-commerce app"
+							/> using React 19, NestJS API, and SQLite DB
+						</li>
+						<li>
+							Designed micro architecture <BaseLink
+								href="https://github.com/incutonez/configs/tree/main/scaffold"
+								text="scaffolding script"
+							/> to increase initial app productivity
+						</li>
+						<li>
+							Deployed <BaseLink
+								href="https://github.com/incutonez/core-ui"
+								text="Core UI package"
+							/> to GitHub for consumption in personal Vue projects
+						</li>
+						<li>
+							Experimented with OOP based UI <BaseLink
+								href="https://github.com/incutonez/Sandbox/blob/main/packages/ui/src/models/UserModel.ts#L137-L169"
+								text="View Models"
+							/> that encapsulate API calls
+						</li>
+						<li>
+							Prototyped <BaseLink
+								href="https://incutonez.github.io/fabled-basin/#/"
+								text="Legend of Zelda"
+							/> clone using Phaser 3 and TypeScript
+						</li>
+						<li>
+							Created <BaseLink
+								href="https://github.com/incutonez/eslint-plugin"
+								text="ESLint Plugin"
+							/> for personal preference on how braces and brackets should look
+						</li>
+						<li>Contemplated ways on starting own business to clean up the Internet</li>
+					</template>
+				</SectionJobDescription>
 				<SectionJobDescription
 					date-start="Mar 2023"
 					project="Vue 3, TypeScript, Tailwind, Pinia, NestJS, OpenAPI"
