@@ -1,3 +1,9 @@
+## [1.0.7](https://github.com/incutonez/jefharkay/compare/v1.0.6...v1.0.7) (2025-04-20)
+
+### Bug Fixes
+
+* Fixing links to Satisfactory Manager ([0af5d85](https://github.com/incutonez/jefharkay/commit/0af5d855866cb9a3d14dc4e5280be3abf343a988))
+
 ## [1.0.6](https://github.com/incutonez/jefharkay/compare/v1.0.5...v1.0.6) (2025-04-20)
 
 ### Bug Fixes
