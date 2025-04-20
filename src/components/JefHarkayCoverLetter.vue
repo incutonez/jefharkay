@@ -24,7 +24,7 @@ import BaseLink from "@/components/BaseLink.vue";
 		</p>
 		<p>
 			I have worked on several other things too, like my <BaseLink
-				href="https://incutonez.github.io/satisfactory-manager/#items"
+				href="https://incutonez.github.io/satisfactory-manager/#/items"
 				text="Satisfactory Manager"
 			/>, migrating my personal projects to Tailwind v4 and creating a scaffolding command that will create a workspace with a skeleton API, OpenAPI spec, and UI, either in React or Vue.  These commands add all my common configurations, like ESLint (and associated rules that I prefer), GitHub workflows, Tailwind theme, Husky, and semantic versioning.  Finally, I started working on a Phaser 3 tech demo of the original <BaseLink
 				href="https://incutonez.github.io/fabled-basin/#/"

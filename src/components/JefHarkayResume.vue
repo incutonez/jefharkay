@@ -118,7 +118,7 @@ const DoDTasks = ["Rotated offices every 6-8 months, contributing to several dif
 					<template #tasks>
 						<li>
 							Created <BaseLink
-								href="https://incutonez.github.io/satisfactory-manager/#items"
+								href="https://incutonez.github.io/satisfactory-manager/#/items"
 								text="Satisfactory Manager"
 							/> using React 19, TanStack Table, TanStack Router, and React Aria Components
 						</li>
