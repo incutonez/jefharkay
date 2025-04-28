@@ -28,6 +28,12 @@ export const routes: RouteRecordRaw[] = [{
 	components: {
 		JefHarkayCoverLetter,
 	},
+}, {
+	path: "/:pathMatch(.*)*",
+	name: SummaryRoute,
+	components: {
+		JefHarkayResume,
+	},
 }];
 
 export const router = createRouter({
