@@ -1,3 +1,9 @@
+## [2.0.1](https://github.com/incutonez/jefharkay/compare/v2.0.0...v2.0.1) (2025-04-28)
+
+### Bug Fixes
+
+* Fixing Routing Issues ([#21](https://github.com/incutonez/jefharkay/issues/21)) ([56ee6fc](https://github.com/incutonez/jefharkay/commit/56ee6fc0666c2e51e2c1b6614b166b25ca8fbfd8))
+
 ## [2.0.0](https://github.com/incutonez/jefharkay/compare/v1.0.7...v2.0.0) (2025-04-28)
 
 ### ⚠ BREAKING CHANGES
