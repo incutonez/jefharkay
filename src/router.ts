@@ -18,37 +18,10 @@ export const CoverLetterRoute = "coverLetter";
 
 export const routes: RouteRecordRaw[] = [{
 	path: "/",
-	redirect: {
-		name: SummaryRoute,
+	name: SummaryRoute,
+	components: {
+		JefHarkayResume,
 	},
-}, {
-	path: "/resume",
-	name: ResumeRoute,
-	children: [{
-		path: "summary",
-		name: SummaryRoute,
-		components: {
-			JefHarkayResume,
-		},
-	}, {
-		path: "skills",
-		name: SkillsRoute,
-		components: {
-			JefHarkayResume,
-		},
-	}, {
-		path: "experience",
-		name: ExperienceRoute,
-		components: {
-			JefHarkayResume,
-		},
-	}, {
-		path: "education",
-		name: EducationRoute,
-		components: {
-			JefHarkayResume,
-		},
-	}],
 }, {
 	path: "/cover-letter",
 	name: CoverLetterRoute,

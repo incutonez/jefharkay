@@ -8,34 +8,49 @@ import BaseLink from "@/components/BaseLink.vue";
 			Hello there!
 		</p>
 		<p contenteditable="true">
-			I’m Jef, and it’s nice to e-meet you!  I wanted to start by saying thank you very much for your time and consideration.
+			I'm Jef — a passionate Senior Software Engineer with a love for building quality software, mentoring others, and continuously learning new technologies. Thank you for considering my application!
 		</p>
 		<p>
-			I am a versatile developer that loves working with JavaScript/TypeScript.  My last 3 roles have been with Vue 3, which I thoroughly enjoy.  Above all, I love learning, so I am absolutely open to a React, Angular, Svelte, or other framework du jour roles.  I also enjoy full-stack work, as it allows me to see the entire pipeline from data to presentation, and it’s always nice to architect things.  Lastly, I am committed to quality, uniformity, best practices, and having lively conversations on pull requests.
+			My experience is rooted in modern JavaScript and TypeScript ecosystems, particularly with Vue 3 over my last three roles. However, I thrive on exploring new frameworks, including React, Angular, Svelte, and more. I enjoy full-stack development, and I’m committed to creating scalable, maintainable applications through best practices and lively collaboration on code reviews.
 		</p>
 		<p>
-			I’m looking for a team of talented developers where I can grow and collaborate in a lighthearted environment, with the opportunity to coach and mentor less experienced developers.  Additionally, I'm looking for a project(s) that has a large backlog of tasks that require an expert wrangler.  Bonus points if the application needs refactoring or rebuilding from the ground up.
+			Over the past year, I dedicated myself to advancing my skills and exploring new technologies. I built several projects, including:
+		</p>
+		<ul class="list-disc ml-4">
+			<li>
+				<BaseLink
+					href="https://github.com/incutonez/ecommerce"
+					text="E-commerce app"
+				/>
+				- built from scratch using React 19, NestJS, and SQLite; deployed to AWS EC2.
+			</li>
+			<li>
+				<BaseLink
+					href="https://incutonez.github.io/satisfactory-manager/#/items"
+					text="Satisfactory Manager"
+				/> - a React-based tool for managing game inputs and outputs.
+			</li>
+			<li>
+				<BaseLink
+					text="Custom scaffolding CLI"
+					href="https://github.com/incutonez/configs/tree/main/scaffold"
+				/> - spins up a full-stack project (API, OpenAPI spec, UI) in either React or Vue, with automated configurations for ESLint, GitHub workflows, Husky, and semantic versioning.
+			</li>
+			<li>
+				<BaseLink
+					text="Fabled Basin"
+					href="https://incutonez.github.io/fabled-basin/#/"
+				/> - a tribute to The Legend of Zelda, built as a browser-based RPG tech demo.
+			</li>
+		</ul>
+		<p>
+			I’m looking for a collaborative, lighthearted team where I can contribute meaningful input, mentor junior developers, and help tackle ambitious projects - whether by building new applications or refactoring existing ones for long-term success.
 		</p>
 		<p>
-			In the past year that I have been unemployed, I have been keeping up-to-date with latest releases of NPM packages and learning new frameworks.  I recently decided to learn React and created an example e-commerce app.  I created the database structure, the back-end code, and the front-end code all from scratch.  I then deployed it to an AWS EC2 instance, and it’s stored on <BaseLink
-				href="https://github.com/incutonez/ecommerce"
-				text="GitHub"
-			/>.  Hopefully you can forgive the uncute UI, but the functionality speaks to my abilities to learn on the fly.
-		</p>
-		<p>
-			I have worked on several other things too, like my <BaseLink
-				href="https://incutonez.github.io/satisfactory-manager/#/items"
-				text="Satisfactory Manager"
-			/>, migrating my personal projects to Tailwind v4 and creating a scaffolding command that will create a workspace with a skeleton API, OpenAPI spec, and UI, either in React or Vue.  These commands add all my common configurations, like ESLint (and associated rules that I prefer), GitHub workflows, Tailwind theme, Husky, and semantic versioning.  Finally, I started working on a Phaser 3 tech demo of the original <BaseLink
-				href="https://incutonez.github.io/fabled-basin/#/"
-				text="Legend of Zelda"
-			/>, but I have lost steam on that.
-		</p>
-		<p>
-			If I've piqued your interest, I hope to hear from you soon!
+			I would love the opportunity to bring my passion for high-quality code and creative problem-solving to your team. Thank you again for your time and consideration, and I look forward to the possibility of speaking with you soon.
 		</p>
 		<p class="mt-12">
-			Jef
+			Jef Harkay
 		</p>
 	</article>
 </template>
