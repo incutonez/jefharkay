@@ -1,3 +1,13 @@
+## [2.0.0](https://github.com/incutonez/jefharkay/compare/v1.0.7...v2.0.0) (2025-04-28)
+
+### ⚠ BREAKING CHANGES
+
+* Reworking Layout and Content Based on Feedback (#20)
+
+### Features
+
+* Reworking Layout and Content Based on Feedback ([#20](https://github.com/incutonez/jefharkay/issues/20)) ([3cfc09d](https://github.com/incutonez/jefharkay/commit/3cfc09d93def60f7826c5f7cdec318023665dee4))
+
 ## [1.0.7](https://github.com/incutonez/jefharkay/compare/v1.0.6...v1.0.7) (2025-04-20)
 
 ### Bug Fixes
