@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import SectionEducation from "@/components/SectionEducation.vue";
-import SectionPastExperience from "@/components/SectionPastExperience.vue";
+import SectionExperienceContinued from "@/components/SectionExperienceContinued.vue";
 </script>
 
 <template>
-	<SectionPastExperience />
+	<SectionExperienceContinued />
 	<SectionEducation />
 </template>
