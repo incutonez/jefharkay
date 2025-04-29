@@ -2,7 +2,7 @@
 import JefHarkayCoverLetter from "@/components/JefHarkayCoverLetter.vue";
 import JefHarkayResume from "@/components/JefHarkayResume.vue";
 
-export const duration = 3000;
+export const duration = 1000;
 
 export const ResumeRoute = "resume";
 

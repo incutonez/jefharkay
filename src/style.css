@@ -5,7 +5,7 @@
  * This is the newer way of using safelist from v3
  * Source: https://github.com/tailwindlabs/tailwindcss/pull/17147
  */
-@source inline("duration-3000");
+@source inline("duration-1000");
 
 @theme {
     --color-blue-resume: #041E42;
