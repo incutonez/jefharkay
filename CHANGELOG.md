@@ -1,3 +1,9 @@
+## [2.0.2](https://github.com/incutonez/jefharkay/compare/v2.0.1...v2.0.2) (2025-04-29)
+
+### Bug Fixes
+
+* Making some minor adjustments ([#22](https://github.com/incutonez/jefharkay/issues/22)) ([8f5fecf](https://github.com/incutonez/jefharkay/commit/8f5fecf65d7d6ef35279a2f60ed1cf1a8ecae128))
+
 ## [2.0.1](https://github.com/incutonez/jefharkay/compare/v2.0.0...v2.0.1) (2025-04-28)
 
 ### Bug Fixes
