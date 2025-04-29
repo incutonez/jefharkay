@@ -9,6 +9,8 @@
 		<ul class="skill-list">
 			<li>Vue 3</li>
 			<li>React 19</li>
+			<li>Redux Toolkit</li>
+			<li>TanStack</li>
 			<li>Ext JS</li>
 			<li>TypeScript 5+</li>
 			<li>JSON</li>

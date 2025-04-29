@@ -23,7 +23,7 @@ const QADTasks = [
 		<section class="flex flex-col space-y-3">
 			<SectionJobDescription
 				date-start="Mar 2024"
-				project="Vue 3, React 19, TypeScript, Tailwind, NestJS"
+				project="Vue, React, Redux Toolkit, TanStack, TypeScript, Tailwind, NestJS, SQLite, OpenAPI"
 				company="Personal Growth"
 				location="Remote"
 				industry="Personal Tech"
@@ -36,13 +36,13 @@ const QADTasks = [
 						Built <BaseLink
 							href="https://incutonez.github.io/satisfactory-manager/#/items"
 							text="Satisfactory Manager"
-						/> using React, TanStack Table and Router, and Aria Components
+						/> using React 19, Redux Toolkit, TanStack Table and Router, and Aria Components
 					</li>
 					<li>
 						Developed a sample <BaseLink
 							href="https://github.com/incutonez/ecommerce"
 							text="e-commerce application"
-						/> using React, NestJS, and SQLite
+						/> using React 19, NestJS, SQLite, and AWS
 					</li>
 					<li>
 						Designed a micro-architecture <BaseLink
@@ -53,7 +53,7 @@ const QADTasks = [
 					<li>
 						Created and deployed a <BaseLink
 							href="https://github.com/incutonez/core-ui"
-							text="Core UI package"
+							text="core UI package"
 						/> for personal Vue projects
 					</li>
 					<li>
