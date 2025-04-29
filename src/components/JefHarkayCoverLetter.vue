@@ -22,25 +22,45 @@ import BaseLink from "@/components/BaseLink.vue";
 					href="https://github.com/incutonez/ecommerce"
 					text="E-commerce app"
 				/>
-				- built from scratch using React 19, NestJS, and SQLite; deployed to AWS EC2.
+				<ul class="list-disc ml-4">
+					<li>Built from scratch using React 19, NestJS, and SQLite</li>
+					<li>Deployed to AWS EC2 but disabled to preserve cost</li>
+				</ul>
 			</li>
 			<li>
 				<BaseLink
 					href="https://incutonez.github.io/satisfactory-manager/#/items"
 					text="Satisfactory Manager"
-				/> - a React-based tool for managing game inputs and outputs.
+				/>
+				<ul class="list-disc ml-4">
+					<li>Built with React 19, TanStack Table and Router, Redux Toolkit, and Aria Components</li>
+					<li>A tool for managing game production inputs and outputs and machine power requirements</li>
+				</ul>
 			</li>
 			<li>
 				<BaseLink
 					text="Custom scaffolding CLI"
 					href="https://github.com/incutonez/configs/tree/main/scaffold"
-				/> - spins up a full-stack project (API, OpenAPI spec, UI) in either React or Vue, with automated configurations for ESLint, GitHub workflows, Husky, and semantic versioning.
+				/>
+				<ul class="list-disc ml-4">
+					<li>Spins up a full-stack project with NestJS API, SQLite DB, OpenAPI spec, and React or Vue UI</li>
+					<li>Includes configurations for ESLint, GitHub workflows, Husky, and semantic versioning</li>
+				</ul>
 			</li>
 			<li>
 				<BaseLink
 					text="Fabled Basin"
 					href="https://incutonez.github.io/fabled-basin/#/"
-				/> - a tribute to The Legend of Zelda, built as a browser-based RPG tech demo.
+				/>
+				<ul class="list-disc ml-4">
+					<li>Built with Phaser 3 and Vue 3, custom assets from itch.io</li>
+					<li>
+						A tribute to The Legend of Zelda, built as a browser-based RPG tech demo and includes a <BaseLink
+							text="World Builder"
+							href="https://incutonez.github.io/fabled-basin/#/world-builder"
+						/>
+					</li>
+				</ul>
 			</li>
 		</ul>
 		<p>
