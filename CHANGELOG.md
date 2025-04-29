@@ -1,3 +1,9 @@
+## [2.0.3](https://github.com/incutonez/jefharkay/compare/v2.0.2...v2.0.3) (2025-04-29)
+
+### Bug Fixes
+
+* Making some minor adjustments to cover letter ([#23](https://github.com/incutonez/jefharkay/issues/23)) ([78c2a77](https://github.com/incutonez/jefharkay/commit/78c2a77aeb7952c3fdaa4328199c689b132ee040))
+
 ## [2.0.2](https://github.com/incutonez/jefharkay/compare/v2.0.1...v2.0.2) (2025-04-29)
 
 ### Bug Fixes
