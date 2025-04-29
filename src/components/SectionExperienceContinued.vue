@@ -4,21 +4,21 @@ import SectionJobDescription from "@/components/SectionJobDescription.vue";
 const IntrinsiQTasks = [
 	"Delivered MVP of a patient search tool three months ahead of schedule",
 	"Added virtual scrolling to large, performance-challenged data tables",
-	"Tailored core components from scratch and by wrapping Kendo UI components",
+	"Created core components from scratch and by wrapping Kendo UI components",
 	"Designed a micro front-end architecture for shared modules",
 	"Migrated core components to a reusable NPM package",
 ];
 const PureTasks = [
 	"Led financial reporting team and co-led another engineering team",
 	"Authored engineering guidelines to streamline onboarding",
-	"Developed core UI components package for offshore team",
+	"Developed core UI components package for onshore and offshore team",
 	"Collaborated with and provided feedback to product team on mockups for upcoming features",
 	"Mentored junior and offshore developers through code reviews and coaching",
 ];
-const WideOrbitTasks = ["Wrote technical design documents and best practice guidelines", "Shared reusable Ext JS components across multiple teams", "Filed over 200 technical issues with Sencha Support and patched 100+ bugs"];
+const WideOrbitTasks = ["Wrote technical design documents and best practice guidelines", "Shared reusable Ext JS components across multiple teams", "Filed over 200 technical issues with Sencha Support and patched over 100 bugs in the framework"];
 const VitalWareTasks = ["Organized and led UI/UX architecture team", "Prototyped and delivered urgent product MVPs based on client feedback", "Designed mockups and collaborated with product managers"];
 const WideOrbit2Tasks = ["Optimized Ext JS Grid component for high-volume data sets", "Led UI efforts for sell-side ad platform development"];
-const TimeWarnerTasks = ["Migrated UIs from Ruby on Rails and jQuery to Ext JS for better performance", "Built web application to replace manual tracking systems"];
+const TimeWarnerTasks = ["Migrated UIs from Ruby on Rails and jQuery to Ext JS for better performance", "Built web application to replace manual tracking system using shared Excel file"];
 const DoDTasks = ["Held TS/SCI security clearance throughout tenure", "Completed rotational assignments across multiple orgs, adapting quickly to new teams and missions every 8 months", "Passed four post-graduate computer science courses at UMBC as part of development requirements"];
 </script>
 
