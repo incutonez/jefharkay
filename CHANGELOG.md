@@ -1,3 +1,9 @@
+## [2.1.0](https://github.com/incutonez/jefharkay/compare/v2.0.3...v2.1.0) (2025-05-16)
+
+### Features
+
+* Adding GA ([#30](https://github.com/incutonez/jefharkay/issues/30)) ([98e65d0](https://github.com/incutonez/jefharkay/commit/98e65d04a25b6ad74d904b91d11a9c4847a32d06))
+
 ## [2.0.3](https://github.com/incutonez/jefharkay/compare/v2.0.2...v2.0.3) (2025-04-29)
 
 ### Bug Fixes
