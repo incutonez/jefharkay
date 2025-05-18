@@ -62,6 +62,16 @@ import BaseLink from "@/components/BaseLink.vue";
 					</li>
 				</ul>
 			</li>
+			<li>
+				<BaseLink
+					text="Job Application Tracker"
+					href="https://github.com/incutonez/job-applications"
+				/>
+				<ul class="list-disc ml-4">
+					<li>Built with Vue 3, TanStack (Table, Query, and Virtual scroller), Redux, and Reka UI</li>
+					<li>My job application Excel spreadsheet became a bit too unwieldy, so I decided to turn it into a web app</li>
+				</ul>
+			</li>
 		</ul>
 		<p>
 			I’m looking for a collaborative, lighthearted team where I can contribute meaningful input, mentor junior developers, and help tackle ambitious projects - whether by building new applications or refactoring existing ones for long-term success.
