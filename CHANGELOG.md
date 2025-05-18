@@ -1,3 +1,9 @@
+## [2.2.0](https://github.com/incutonez/jefharkay/compare/v2.1.0...v2.2.0) (2025-05-18)
+
+### Features
+
+* Adding Job Application Experience ([#31](https://github.com/incutonez/jefharkay/issues/31)) ([80eb76f](https://github.com/incutonez/jefharkay/commit/80eb76f5b01644da9d796855c5df7da0d531f7ec))
+
 ## [2.1.0](https://github.com/incutonez/jefharkay/compare/v2.0.3...v2.1.0) (2025-05-16)
 
 ### Features
