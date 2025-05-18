@@ -1,14 +1,23 @@
 <script setup lang="ts">
+import { computed } from "vue";
+
 interface IBaseLink {
 	text: string;
+	showCls?: boolean;
 }
 
-defineProps<IBaseLink>();
+const { text, showCls = true } = defineProps<IBaseLink>();
+const cls = computed(() => {
+	return {
+		["text-blue-700 underline"]: showCls,
+	};
+});
 </script>
 
 <template>
 	<a
-		class="anchor-link underline text-blue-700"
+		class="anchor-link"
+		:class="cls"
 		target="_blank"
 	>
 		{{ text }}

@@ -23,7 +23,7 @@ const QADTasks = [
 		<section class="flex flex-col space-y-3">
 			<SectionJobDescription
 				date-start="Mar 2024"
-				project="Vue, React, Redux Toolkit, TanStack, TypeScript, Tailwind, NestJS, SQLite, OpenAPI"
+				project="Vue, React, Redux, TanStack, Reka UI, TypeScript, Tailwind, NestJS, SQLite, OpenAPI"
 				company="Personal Growth"
 				location="Remote"
 				industry="Personal Tech"
@@ -63,10 +63,10 @@ const QADTasks = [
 						/> clone using Phaser 3 and TypeScript
 					</li>
 					<li>
-						Built a personal <BaseLink
-							href="https://github.com/incutonez/eslint-plugin"
-							text="ESLint Plugin"
-						/> to enforce custom code styling preferences
+						Built a <BaseLink
+							href="https://github.com/incutonez/job-applications"
+							text="job application"
+						/> tracking web app using Vue 3, TanStack Table and Query, and Reka UI
 					</li>
 					<li>Explored ideas for launching a business to improve web quality standards</li>
 				</template>
