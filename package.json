@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
+    "explode": "npm cache clean --force && npx rimraf package-lock.json **/node_modules --glob && npm i",
     "preview": "vite preview",
     "lint": "npx eslint --fix",
     "update:deps": "node ./updateDependencies.js",
