@@ -66,7 +66,7 @@ const QADTasks = [
 						Built a <BaseLink
 							href="https://github.com/incutonez/job-applications"
 							text="job application"
-						/> tracking web app using Vue 3, TanStack Table and Query, and Reka UI
+						/> tracking web app using Vue 3, TanStack Table and Query, Reka UI, and Auth0
 					</li>
 					<li>Explored ideas for launching a business to improve web quality standards</li>
 				</template>

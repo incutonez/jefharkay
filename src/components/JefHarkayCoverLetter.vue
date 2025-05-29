@@ -68,7 +68,8 @@ import BaseLink from "@/components/BaseLink.vue";
 					href="https://github.com/incutonez/job-applications"
 				/>
 				<ul class="list-disc ml-4">
-					<li>Built with Vue 3, TanStack (Table, Query, and Virtual scroller), Redux, and Reka UI</li>
+					<li>UI: Vue 3, TanStack (Table, Query, and Virtual scroller), Redux, Reka UI, and Auth0</li>
+					<li>API: Node.js/NestJS, Sequelize v7, SQLite3, PapaParse, and encrypt/decrypt DB functionality</li>
 					<li>My job application Excel spreadsheet became a bit too unwieldy, so I decided to turn it into a web app</li>
 				</ul>
 			</li>
