@@ -1,3 +1,9 @@
+## [2.4.0](https://github.com/incutonez/jefharkay/compare/v2.3.0...v2.4.0) (2025-05-29)
+
+### Features
+
+* Updating Descriptions ([#36](https://github.com/incutonez/jefharkay/issues/36)) ([ff2959c](https://github.com/incutonez/jefharkay/commit/ff2959cc53c53c6e34658a97a5d3d8ef9acaf527))
+
 ## [2.3.0](https://github.com/incutonez/jefharkay/compare/v2.2.0...v2.3.0) (2025-05-29)
 
 ### Features
