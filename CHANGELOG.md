@@ -1,3 +1,9 @@
+## [2.3.0](https://github.com/incutonez/jefharkay/compare/v2.2.0...v2.3.0) (2025-05-29)
+
+### Features
+
+* Update Dependencies ([#35](https://github.com/incutonez/jefharkay/issues/35)) ([f1b3a18](https://github.com/incutonez/jefharkay/commit/f1b3a18d379f8795bd648069fe692a22069fe68f))
+
 ## [2.2.0](https://github.com/incutonez/jefharkay/compare/v2.1.0...v2.2.0) (2025-05-18)
 
 ### Features
