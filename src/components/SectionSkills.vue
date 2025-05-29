@@ -44,6 +44,14 @@ import BaseLink from "@/components/BaseLink.vue";
 				/>
 			</li>
 			<li>HTML</li>
+			<li>Auth0</li>
+			<li>
+				<BaseLink
+					text="OpenAPI"
+					href="https://openapi-generator.tech/docs/generators/typescript-axios"
+					:show-cls="false"
+				/>
+			</li>
 			<li>Node.js</li>
 			<li>NestJS</li>
 			<li>C#</li>
@@ -57,13 +65,6 @@ import BaseLink from "@/components/BaseLink.vue";
 			<li>OOP</li>
 			<li>Rapid Prototyping</li>
 			<li>Web Sockets</li>
-			<li>
-				<BaseLink
-					text="OpenAPI"
-					href="https://openapi-generator.tech/docs/generators/typescript-axios"
-					:show-cls="false"
-				/>
-			</li>
 		</ul>
 	</article>
 </template>
