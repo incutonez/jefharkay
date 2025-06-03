@@ -25,7 +25,7 @@ import BaseLink from "@/components/BaseLink.vue";
 				<ul class="list-disc ml-4">
 					<li>UI: Vue 3, TanStack (Table, Query, and Virtual scroller), Redux, Reka UI, and Auth0</li>
 					<li>API: Node.js/NestJS, Sequelize v7, SQLite3, PapaParse, and encrypt/decrypt DB functionality</li>
-					<li>My job application Excel spreadsheet became unwieldy, so I decided to turn it into a web app, among other things</li>
+					<li>My job application Excel spreadsheet became unwieldy, so I decided to turn it into a web app with other features</li>
 				</ul>
 			</li>
 			<li>
