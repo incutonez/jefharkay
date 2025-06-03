@@ -1,3 +1,9 @@
+## [2.4.1](https://github.com/incutonez/jefharkay/compare/v2.4.0...v2.4.1) (2025-06-03)
+
+### Bug Fixes
+
+* Fixing Life Stats Link ([#38](https://github.com/incutonez/jefharkay/issues/38)) ([53efb95](https://github.com/incutonez/jefharkay/commit/53efb958aa9eefdb49c586e564da915d5a978805))
+
 ## [2.4.0](https://github.com/incutonez/jefharkay/compare/v2.3.0...v2.4.0) (2025-05-29)
 
 ### Features
