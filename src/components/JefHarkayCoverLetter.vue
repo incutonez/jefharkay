@@ -19,6 +19,17 @@ import BaseLink from "@/components/BaseLink.vue";
 		<ul class="list-disc ml-4">
 			<li>
 				<BaseLink
+					text="Life Statistics Tracker"
+					href="https://github.com/incutonez/life-stats"
+				/>
+				<ul class="list-disc ml-4">
+					<li>UI: Vue 3, TanStack (Table, Query, and Virtual scroller), Redux, Reka UI, and Auth0</li>
+					<li>API: Node.js/NestJS, Sequelize v7, SQLite3, PapaParse, and encrypt/decrypt DB functionality</li>
+					<li>My job application Excel spreadsheet became unwieldy, so I decided to turn it into a web app with other features</li>
+				</ul>
+			</li>
+			<li>
+				<BaseLink
 					href="https://github.com/incutonez/ecommerce"
 					text="E-commerce app"
 				/>
@@ -60,17 +71,6 @@ import BaseLink from "@/components/BaseLink.vue";
 							href="https://incutonez.github.io/fabled-basin/#/world-builder"
 						/>
 					</li>
-				</ul>
-			</li>
-			<li>
-				<BaseLink
-					text="Job Application Tracker"
-					href="https://github.com/incutonez/job-applications"
-				/>
-				<ul class="list-disc ml-4">
-					<li>UI: Vue 3, TanStack (Table, Query, and Virtual scroller), Redux, Reka UI, and Auth0</li>
-					<li>API: Node.js/NestJS, Sequelize v7, SQLite3, PapaParse, and encrypt/decrypt DB functionality</li>
-					<li>My job application Excel spreadsheet became a bit too unwieldy, so I decided to turn it into a web app</li>
 				</ul>
 			</li>
 		</ul>
