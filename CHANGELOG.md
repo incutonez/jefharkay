@@ -1,3 +1,9 @@
+## [2.5.0](https://github.com/incutonez/jefharkay/compare/v2.4.1...v2.5.0) (2025-07-07)
+
+### Features
+
+* Upgrade Dependencies ([#37](https://github.com/incutonez/jefharkay/issues/37)) ([03f1d69](https://github.com/incutonez/jefharkay/commit/03f1d691b05dc62af6e7529541e9401b463b2e9e))
+
 ## [2.4.1](https://github.com/incutonez/jefharkay/compare/v2.4.0...v2.4.1) (2025-06-03)
 
 ### Bug Fixes
