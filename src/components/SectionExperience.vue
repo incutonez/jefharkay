@@ -34,7 +34,7 @@ const QADTasks = [
 				<template #tasks>
 					<li>
 						Started working on a <BaseLink
-							href="https://github.com/incutonez/life-stats"
+							href="https://github.com/incutonez/life-stats?tab=readme-ov-file#life-stats"
 							text="life stats"
 						/> web app using Vue 3, TanStack Table and Query, Reka UI, and Auth0
 					</li>

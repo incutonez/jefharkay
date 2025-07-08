@@ -20,12 +20,18 @@ import BaseLink from "@/components/BaseLink.vue";
 			<li>
 				<BaseLink
 					text="Life Statistics Tracker"
-					href="https://github.com/incutonez/life-stats"
+					href="https://github.com/incutonez/life-stats?tab=readme-ov-file#life-stats"
 				/>
 				<ul class="list-disc ml-4">
-					<li>UI: Vue 3, TanStack (Table, Query, and Virtual scroller), Redux, Reka UI, and Auth0</li>
+					<li>
+						<BaseLink
+							text="Test Version"
+							href="https://test.incutonez.com"
+						/>: AWS, Cloudflare, Docker, and Let's Encrypt
+					</li>
+					<li>UI: Vue 3, Vue Router, TanStack (Table, Query, and Virtual scroller), Redux, Reka UI, and Auth0</li>
 					<li>API: Node.js/NestJS, Sequelize v7, SQLite3, PapaParse, and encrypt/decrypt DB functionality</li>
-					<li>My job application Excel spreadsheet became unwieldy, so I decided to turn it into a web app with other features</li>
+					<li>Evolved from job application spreadsheet into a web app with other features, like tracking exercises</li>
 				</ul>
 			</li>
 			<li>

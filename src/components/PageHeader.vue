@@ -59,7 +59,7 @@ import IconPin from "@/assets/IconPin.vue";
 			<li class="flex items-center space-x-2">
 				<IconOnline class="size-5 fill-white" />
 				<a
-					href="https://incutonez.github.io/jefharkay/#/"
+					href="https://resume.incutonez.com"
 					class="anchor-link"
 					target="_blank"
 				>Online Resume</a>
