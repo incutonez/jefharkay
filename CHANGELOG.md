@@ -1,3 +1,9 @@
+## [2.7.0](https://github.com/incutonez/jefharkay/compare/v2.6.0...v2.7.0) (2025-09-29)
+
+### Features
+
+* Adding Stubbed IntrinsiQ Position ([#46](https://github.com/incutonez/jefharkay/issues/46)) ([823ae5b](https://github.com/incutonez/jefharkay/commit/823ae5beabb2f139c29a2222e5fba4cbfa02a384))
+
 ## [2.6.0](https://github.com/incutonez/jefharkay/compare/v2.5.0...v2.6.0) (2025-07-08)
 
 ### Features
