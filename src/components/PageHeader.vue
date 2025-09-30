@@ -35,7 +35,7 @@ import IconPin from "@/assets/IconPin.vue";
 			<li class="flex items-center space-x-2">
 				<IconPin class="size-5" />
 				<span>
-					Fairfax, VA
+					Ashburn, VA
 				</span>
 			</li>
 		</ul>
