@@ -1,3 +1,9 @@
+## [2.7.1](https://github.com/incutonez/jefharkay/compare/v2.7.0...v2.7.1) (2025-09-30)
+
+### Bug Fixes
+
+* Updating City ([#47](https://github.com/incutonez/jefharkay/issues/47)) ([38c8c07](https://github.com/incutonez/jefharkay/commit/38c8c072aa7ed4379cf9ce5463ad348353f9b103))
+
 ## [2.7.0](https://github.com/incutonez/jefharkay/compare/v2.6.0...v2.7.0) (2025-09-29)
 
 ### Features
