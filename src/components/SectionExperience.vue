@@ -3,6 +3,7 @@ import BaseLink from "@/components/BaseLink.vue";
 import SectionJobDescription from "@/components/SectionJobDescription.vue";
 import { ExperienceRoute } from "@/router.ts";
 
+const IntrinsiQTasks = ["Developed cancer research survey in 1 month that generated ~$4MM in revenue", "Implemented modular package pattern for consumption in various portals", "Migrated SCSS to Tailwind/CSS to leverage native browser CSS nesting"];
 const QADTasks = [
 	"Boosted customer efficiency by adding multi-upload for entity management",
 	"Increased developer velocity by designing reusable page layouts, inputs, and data tables",
@@ -29,6 +30,7 @@ const QADTasks = [
 				date-end="Present"
 				project="Vue, TypeScript, Kendo UI, Tailwind"
 				industry="Health Tech"
+				:tasks="IntrinsiQTasks"
 			/>
 			<SectionJobDescription
 				date-start="Mar 2024"

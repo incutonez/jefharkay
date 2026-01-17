@@ -1,4 +1,5 @@
 ﻿<script setup lang="ts">
+import { version } from "@/../package.json";
 import IconEmail from "@/assets/IconEmail.vue";
 import IconGitHub from "@/assets/IconGitHub.vue";
 import IconLinkedIn from "@/assets/IconLinkedIn.vue";
@@ -16,6 +17,7 @@ import IconPin from "@/assets/IconPin.vue";
 			<h2 class="text-xl">
 				Senior Software Engineer
 			</h2>
+			<span class="text-xs">v{{ version }}</span>
 		</section>
 		<ul>
 			<li class="flex items-center space-x-2">
@@ -62,7 +64,7 @@ import IconPin from "@/assets/IconPin.vue";
 					href="https://resume.incutonez.com"
 					class="anchor-link"
 					target="_blank"
-				>Online Resume</a>
+				>Latest Resume</a>
 			</li>
 		</ul>
 	</article>
