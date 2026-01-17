@@ -1,3 +1,9 @@
+## [2.8.0](https://github.com/incutonez/jefharkay/compare/v2.7.1...v2.8.0) (2026-01-17)
+
+### Features
+
+* Updating Tasks at IntrinsiQ ([#51](https://github.com/incutonez/jefharkay/issues/51)) ([827b3f8](https://github.com/incutonez/jefharkay/commit/827b3f8117d3123dc61267a183763821c54fb306))
+
 ## [2.7.1](https://github.com/incutonez/jefharkay/compare/v2.7.0...v2.7.1) (2025-09-30)
 
 ### Bug Fixes
