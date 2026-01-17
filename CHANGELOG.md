@@ -1,3 +1,9 @@
+## [2.8.1](https://github.com/incutonez/jefharkay/compare/v2.8.0...v2.8.1) (2026-01-17)
+
+### Bug Fixes
+
+* Changing the timeframe, as it was closer to 1 month ([#52](https://github.com/incutonez/jefharkay/issues/52)) ([fef54ed](https://github.com/incutonez/jefharkay/commit/fef54edcd538719d6c9c59018da00c36ccb2e3c9))
+
 ## [2.8.0](https://github.com/incutonez/jefharkay/compare/v2.7.1...v2.8.0) (2026-01-17)
 
 ### Features
