@@ -22,13 +22,22 @@ const QADTasks = [
 		</h1>
 		<section class="flex flex-col space-y-3">
 			<SectionJobDescription
+				position="Software Developer IV"
+				company="IntrinsiQ"
+				location="Remote"
+				date-start="Aug 2025"
+				date-end="Present"
+				project="Vue, TypeScript, Kendo UI, Tailwind"
+				industry="Health Tech"
+			/>
+			<SectionJobDescription
 				date-start="Mar 2024"
 				project="Vue, React, Redux, TanStack, Reka UI, TypeScript, Tailwind, NestJS, SQLite, OpenAPI"
 				company="Personal Growth"
 				location="Remote"
 				industry="Personal Tech"
 				position="Senior Web Engineer"
-				date-end="Present"
+				date-end="Aug 2025"
 				multiple-projects
 			>
 				<template #tasks>
