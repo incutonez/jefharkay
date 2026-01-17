@@ -1,3 +1,9 @@
+## [2.9.0](https://github.com/incutonez/jefharkay/compare/v2.8.1...v2.9.0) (2026-01-17)
+
+### Features
+
+* Updating Dependencies ([#53](https://github.com/incutonez/jefharkay/issues/53)) ([c095d1f](https://github.com/incutonez/jefharkay/commit/c095d1f5830974c403e26b308883154d42b40d9d))
+
 ## [2.8.1](https://github.com/incutonez/jefharkay/compare/v2.8.0...v2.8.1) (2026-01-17)
 
 ### Bug Fixes
