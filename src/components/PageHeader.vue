@@ -4,7 +4,6 @@ import IconEmail from "@/assets/IconEmail.vue";
 import IconGitHub from "@/assets/IconGitHub.vue";
 import IconLinkedIn from "@/assets/IconLinkedIn.vue";
 import IconOnline from "@/assets/IconOnline.vue";
-import IconPhone from "@/assets/IconPhone.vue";
 import IconPin from "@/assets/IconPin.vue";
 </script>
 
@@ -27,12 +26,6 @@ import IconPin from "@/assets/IconPin.vue";
 					class="anchor-link"
 					target="_blank"
 				>jefharkay@gmail.com</a>
-			</li>
-			<li class="flex items-center space-x-2">
-				<IconPhone class="size-5" />
-				<span>
-					720-252-1193
-				</span>
 			</li>
 			<li class="flex items-center space-x-2">
 				<IconPin class="size-5" />
