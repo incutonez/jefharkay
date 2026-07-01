@@ -1,3 +1,9 @@
+## [2.9.1](https://github.com/incutonez/jefharkay/compare/v2.9.0...v2.9.1) (2026-07-01)
+
+### Bug Fixes
+
+* Removing Phone Number for Now ([#57](https://github.com/incutonez/jefharkay/issues/57)) ([eca035c](https://github.com/incutonez/jefharkay/commit/eca035c2da66dd2f2378bb21c9182de9d7e2e2db))
+
 ## [2.9.0](https://github.com/incutonez/jefharkay/compare/v2.8.1...v2.9.0) (2026-01-17)
 
 ### Features
