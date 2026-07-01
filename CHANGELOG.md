@@ -1,3 +1,9 @@
+## [2.9.2](https://github.com/incutonez/jefharkay/compare/v2.9.1...v2.9.2) (2026-07-01)
+
+### Bug Fixes
+
+* Removing Dependabot ([#58](https://github.com/incutonez/jefharkay/issues/58)) ([46f9d37](https://github.com/incutonez/jefharkay/commit/46f9d3742e0a30282098781345b055e59a8fc18a))
+
 ## [2.9.1](https://github.com/incutonez/jefharkay/compare/v2.9.0...v2.9.1) (2026-07-01)
 
 ### Bug Fixes
