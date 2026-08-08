@@ -37,5 +37,7 @@ jobs:
       - name: Deploy UI 🚀
         uses: cloudflare/wrangler-action@v4
         with:
+          environment: production
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=resume
