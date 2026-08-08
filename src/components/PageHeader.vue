@@ -1,10 +1,18 @@
 ﻿<script setup lang="ts">
+import { ref } from "vue";
 import { version } from "@/../package.json";
 import IconEmail from "@/assets/IconEmail.vue";
 import IconGitHub from "@/assets/IconGitHub.vue";
 import IconLinkedIn from "@/assets/IconLinkedIn.vue";
 import IconOnline from "@/assets/IconOnline.vue";
+import IconPhone from "@/assets/IconPhone.vue";
 import IconPin from "@/assets/IconPin.vue";
+
+const showPhone = ref(false);
+
+function onClickRevealPhone() {
+	showPhone.value = true;
+}
 </script>
 
 <template>
@@ -32,6 +40,17 @@ import IconPin from "@/assets/IconPin.vue";
         <span>
           Ashburn, VA
         </span>
+      </li>
+      <li class="flex items-center space-x-2">
+        <IconPhone class="size-5" />
+        <span v-if="showPhone">720-252-1193</span>
+        <button
+          v-else
+          class="cursor-pointer"
+          @click="onClickRevealPhone"
+        >
+          Reveal
+        </button>
       </li>
     </ul>
     <ul class="space-y-1">
