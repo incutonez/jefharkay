@@ -23,80 +23,87 @@ const DoDTasks = ["Held TS/SCI security clearance throughout tenure", "Completed
 </script>
 
 <template>
-	<article class="flex flex-col space-y-4">
-		<!-- Add a page break after this element because the print would cut it off improperly, and it just looks unprofessional -->
-		<SectionJobDescription
-			date-start="May 2022"
-			project="Vue 3, TypeScript, Tailwind, C#"
-			company="IntrinsiQ"
-			location="Remote"
-			industry="Health Tech"
-			position="Software Developer (contractor)"
-			date-end="Dec 2022"
-			class="print:break-after-page"
-			:tasks="IntrinsiQTasks"
-		/>
-		<SectionJobDescription
-			date-start="Aug 2021"
-			project="Vue 3, TypeScript, GraphQL, Node.js"
-			company="PURE Property Management"
-			location="Remote"
-			industry="Property Tech"
-			position="SSE/Tech Lead"
-			date-end="Apr 2022"
-			class="print:pt-4"
-			:tasks="PureTasks"
-		/>
-		<SectionJobDescription
-			date-start="Apr 2018"
-			project="Ext JS, C#"
-			company="WideOrbit"
-			location="Remote"
-			industry="Advertising Tech"
-			position="Senior Software Engineer"
-			date-end="Apr 2021"
-			:tasks="WideOrbitTasks"
-		/>
-		<SectionJobDescription
-			date-start="May 2017"
-			project="Ext JS, GraphQL, ColdFusion"
-			company="VitalWare"
-			location="Remote"
-			industry="Health Tech"
-			position="Web Developer"
-			date-end="Mar 2018"
-			:tasks="VitalWareTasks"
-		/>
-		<SectionJobDescription
-			date-start="Apr 2015"
-			project="Ext JS, C#"
-			company="WideOrbit"
-			location="Lynnwood, WA"
-			industry="Advertising Tech"
-			position="UI Contractor"
-			date-end="Feb 2017"
-			:tasks="WideOrbit2Tasks"
-		/>
-		<SectionJobDescription
-			date-start="Aug 2013"
-			project="Ext JS, Node.js, Ruby, Web Sockets"
-			company="Time Warner Cable"
-			location="Broomfield, CO"
-			industry="Communications Tech"
-			position="UI Contractor"
-			date-end="Mar 2015"
-			:tasks="TimeWarnerTasks"
-		/>
-		<SectionJobDescription
-			date-start="Jun 2010"
-			project="Ext JS, jQuery, Perl, AngularJS"
-			company="Dept. of Defense"
-			location="Fort Meade, MD"
-			industry="Classified Tech"
-			position="Computer Scientist"
-			date-end="Jul 2013"
-			multiple-projects
-			:tasks="DoDTasks"
-		/>
-	</article>
+  <article class="flex flex-col space-y-4">
+    <!-- Add a page break after this element because the print would cut it off improperly, and it just looks unprofessional -->
+    <SectionJobDescription
+      date-start="May 2022"
+      project="Vue 3, TypeScript, Tailwind, C#"
+      company="IntrinsiQ"
+      location="Remote"
+      industry="Health Tech"
+      position="Software Developer (contractor)"
+      date-end="Dec 2022"
+      :tasks="IntrinsiQTasks"
+      :print-max="3"
+      page-new
+    />
+    <SectionJobDescription
+      date-start="Aug 2021"
+      project="Vue 3, TypeScript, GraphQL, Node.js"
+      company="PURE Property Management"
+      location="Remote"
+      industry="Property Tech"
+      position="SSE/Tech Lead"
+      date-end="Apr 2022"
+      :tasks="PureTasks"
+      :print-max="3"
+    />
+    <SectionJobDescription
+      date-start="Apr 2018"
+      project="Ext JS, C#"
+      company="WideOrbit"
+      location="Remote"
+      industry="Advertising Tech"
+      position="Senior Software Engineer"
+      date-end="Apr 2021"
+      :tasks="WideOrbitTasks"
+      :print-max="3"
+    />
+    <SectionJobDescription
+      date-start="May 2017"
+      project="Ext JS, GraphQL, ColdFusion"
+      company="VitalWare"
+      location="Remote"
+      industry="Health Tech"
+      position="Web Developer"
+      date-end="Mar 2018"
+      :tasks="VitalWareTasks"
+      :print-max="3"
+    />
+    <SectionJobDescription
+      date-start="Apr 2015"
+      project="Ext JS, C#"
+      company="WideOrbit"
+      location="Lynnwood, WA"
+      industry="Advertising Tech"
+      position="UI Contractor"
+      date-end="Feb 2017"
+      :tasks="WideOrbit2Tasks"
+      :print-max="3"
+    />
+    <SectionJobDescription
+      date-start="Aug 2013"
+      project="Ext JS, Node.js, Ruby, Web Sockets"
+      company="Time Warner Cable"
+      location="Broomfield, CO"
+      industry="Communications Tech"
+      position="UI Contractor"
+      date-end="Mar 2015"
+      :tasks="TimeWarnerTasks"
+      :print-max="3"
+    />
+    <SectionJobDescription
+      date-start="Jun 2010"
+      project="Ext JS, jQuery, Perl, AngularJS"
+      company="Dept. of Defense"
+      location="Fort Meade, MD"
+      industry="Classified Tech"
+      position="Computer Scientist"
+      date-end="Jul 2013"
+      multiple-projects
+      :tasks="DoDTasks"
+      :print-max="3"
+      :show-separator="false"
+    />
+  </article>
 </template>
