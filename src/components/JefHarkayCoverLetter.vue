@@ -3,91 +3,39 @@ import BaseLink from "@/components/BaseLink.vue";
 </script>
 
 <template>
-	<article class="space-y-4 bg-white">
-		<p>
-			Hello there!
-		</p>
-		<p contenteditable="true">
-			I'm Jef — a passionate Senior Software Engineer with a love for building quality software, mentoring others, and continuously learning new technologies. Thank you for considering my application!
-		</p>
-		<p>
-			My experience is rooted in modern JavaScript and TypeScript ecosystems, particularly with Vue 3 over my last three roles. However, I thrive on exploring new frameworks, including React, Angular, Svelte, and more. I enjoy full-stack development, and I’m committed to creating scalable, maintainable applications through best practices and lively collaboration on code reviews.
-		</p>
-		<p>
-			Over the past year, I dedicated myself to advancing my skills and exploring new technologies. I built several projects, including:
-		</p>
-		<ul class="list-disc ml-4">
-			<li>
-				<BaseLink
-					text="Life Statistics Tracker"
-					href="https://github.com/incutonez/life-stats?tab=readme-ov-file#life-stats"
-				/>
-				<ul class="list-disc ml-4">
-					<li>
-						<BaseLink
-							text="Test Version"
-							href="https://test.incutonez.com"
-						/>: AWS, Cloudflare, Docker, and Let's Encrypt
-					</li>
-					<li>UI: Vue 3, Vue Router, TanStack (Table, Query, and Virtual scroller), Redux, Reka UI, and Auth0</li>
-					<li>API: Node.js/NestJS, Sequelize v7, SQLite3, PapaParse, and encrypt/decrypt DB functionality</li>
-					<li>Evolved from job application spreadsheet into a web app with other features, like tracking exercises</li>
-				</ul>
-			</li>
-			<li>
-				<BaseLink
-					href="https://github.com/incutonez/ecommerce"
-					text="E-commerce app"
-				/>
-				<ul class="list-disc ml-4">
-					<li>Built from scratch using React 19, NestJS, and SQLite</li>
-					<li>Deployed to AWS EC2 but disabled to preserve cost</li>
-				</ul>
-			</li>
-			<li>
-				<BaseLink
-					href="https://incutonez.github.io/satisfactory-manager/#/items"
-					text="Satisfactory Manager"
-				/>
-				<ul class="list-disc ml-4">
-					<li>Built with React 19, TanStack Table and Router, Redux Toolkit, and Aria Components</li>
-					<li>A tool for managing game production inputs and outputs and machine power requirements</li>
-				</ul>
-			</li>
-			<li>
-				<BaseLink
-					text="Custom scaffolding CLI"
-					href="https://github.com/incutonez/configs/tree/main/scaffold"
-				/>
-				<ul class="list-disc ml-4">
-					<li>Spins up a full-stack project with NestJS API, SQLite DB, OpenAPI spec, and React or Vue UI</li>
-					<li>Includes configurations for ESLint, GitHub workflows, Husky, and semantic versioning</li>
-				</ul>
-			</li>
-			<li>
-				<BaseLink
-					text="Fabled Basin"
-					href="https://incutonez.github.io/fabled-basin/#/"
-				/>
-				<ul class="list-disc ml-4">
-					<li>Built with Phaser 3 and Vue 3, custom assets from itch.io</li>
-					<li>
-						A tribute to The Legend of Zelda, built as a browser-based RPG tech demo and includes a <BaseLink
-							text="World Builder"
-							href="https://incutonez.github.io/fabled-basin/#/world-builder"
-						/>
-					</li>
-				</ul>
-			</li>
-		</ul>
-		<p>
-			I’m looking for a collaborative, lighthearted team where I can contribute meaningful input, mentor junior developers, and help tackle ambitious projects - whether by building new applications or refactoring existing ones for long-term success.
-		</p>
-		<p>
-			I would love the opportunity to bring my passion for high-quality code and creative problem-solving to your team. Thank you again for your time and consideration, and I look forward to the possibility of speaking with you soon.
-		</p>
-		<p class="mt-12">
-			Jef Harkay
-		</p>
-	</article>
+  <article class="space-y-4 bg-white">
+    <p>
+      Hello there!
+    </p>
+    <p contenteditable="true">
+      I'm Jef, a passionate Senior Software Engineer with a love for building quality software, mentoring others, and continuously learning new technologies. Thank you for considering my application!
+    </p>
+    <p>
+      My experience is rooted in modern JavaScript and TypeScript ecosystems, mostly with Vue 3. However, I would love the opportunity of exploring frameworks like React, Angular, or Svelte in a production setting. I enjoy full-stack development, and I’m committed to creating scalable, maintainable applications through best practices and lively collaboration on code reviews.
+    </p>
+    <p>
+      My time at IntrinsiQ has been split between 3 initiatives.  The 1st initiative was to create a generic survey system, but use it specifically for a cancer research survey to generate $4MM in revenue.  The team was an API developer and myself as the UI developer.  Incredibly fun little project that came with its own challenges for trying to make it extensible.
+    </p>
+    <p>
+      The 2nd initiative was creating a data contract/document management system using <BaseLink
+        text="JSON Schema"
+        href="https://json-schema.org/"
+      /> as a framework.  We basically wanted a system like <BaseLink
+        text="Strapi"
+        href="https://strapi.io/"
+      />, but did not want to pay for it, and only needed about 20% of the functionality.  Basically a CMS that we could eventually hand over to Product Management, so they could create and maintain surveys of their own.  Our development team also had the need of being able to store configuration values in a more dynamic fashion than through SQL Server.  Same development team as the survey system, which required lots of architecture and experimentation to get it just right.
+    </p>
+    <p>
+      The 3rd initiative was migrating an old ASP.NET to Vue 3 and .NET (Core).  The tool allowed practices to manage insurers, medications, procedures, and protocols so they could build reports and analyze the cost of drugs to generate a more accurate patient bill estimate.  Sounds like a simple CRUD app, but it contained so much nuance that it quickly turned into a nightmare scenario that I thrived in.  Nightmare because of the DB's lack of proper foreign keys, validation gotchas, hidden UI functionality, and so on.  Most days felt like being Indiana Jones on some new archaeological dig through old ASP.NET code.  This went on for over a year and required a lot of Joint Application Development meetings between product, design, and development.
+    </p>
+    <p>
+      I’m looking for a collaborative, lighthearted team where I can contribute meaningful input, mentor junior developers, and help tackle ambitious projects - whether by building new applications or refactoring existing ones for long-term success.
+    </p>
+    <p>
+      I would love the opportunity to bring my passion for high-quality code and creative problem-solving to your team. Thank you again for your time and consideration, and I look forward to the possibility of speaking with you soon.
+    </p>
+    <p class="mt-12">
+      Jef Harkay
+    </p>
+  </article>
 </template>

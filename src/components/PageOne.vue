@@ -5,11 +5,11 @@ import SectionSummary from "@/components/SectionSummary.vue";
 </script>
 
 <template>
-	<article class="space-y-4 flex flex-col">
-		<section class="flex space-x-8">
-			<SectionSummary class="flex-1" />
-			<SectionSkills class="flex-1" />
-		</section>
-		<SectionExperience />
-	</article>
+  <article class="space-y-4 flex flex-col">
+    <section class="flex gap-8 flex-col md:flex-row">
+      <SectionSummary class="flex-1" />
+      <SectionSkills class="flex-1" />
+    </section>
+    <SectionExperience />
+  </article>
 </template>
