@@ -1,3 +1,5 @@
+## [3.1.1](https://github.com/incutonez/jefharkay/compare/v3.1.0...v3.1.1) (2026-08-08)
+
 ## [3.1.0](https://github.com/incutonez/jefharkay/compare/v3.0.0...v3.1.0) (2026-08-08)
 
 ## [3.0.0](https://github.com/incutonez/jefharkay/compare/v2.9.2...v3.0.0) (2026-08-08)
