@@ -38,7 +38,7 @@ function onClickRevealPhone() {
       <li class="flex items-center space-x-2">
         <IconPin class="size-5" />
         <span>
-          Ashburn, VA
+          Alexandria, VA
         </span>
       </li>
       <li class="flex items-center space-x-2">
